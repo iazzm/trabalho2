@@ -1,0 +1,53 @@
+  *{
+  }
+
+  .mamae{
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template-columns: 1fr, 1fr, 1fr, 1fr ;
+    grid-template-rows: 1fr, 1fr, 1fr;
+    grid-template-areas: 
+    "f1 f2 f3 f3"
+    "f1 f4 f5 f6"
+    "f1 f7 f7 f8";
+  }
+
+  .f1{
+    grid-area: f1 ;
+    border: solid 5px orangered;
+  }
+
+  .f2{
+    grid-area: f2 ;
+    border: solid 5px orangered;  }
+
+  .f3{
+    grid-area: f3 ;
+    border: solid 5px orangered;
+  }
+
+  .f4{
+    grid-area: f4 ;
+    border: solid 5px orangered;
+  }
+
+  .f5{
+    grid-area: f5 ;
+    border: solid 5px orangered;
+  }
+  
+  .f6{
+    grid-area: f6 ;
+    border: solid 5px orangered;
+  }
+
+  .f7{
+    grid-area: f7 ;
+    border: solid 5px orangered;
+  }
+
+  .f8{
+    grid-area: f8 ;
+    border: solid 5px orangered;
+  }
