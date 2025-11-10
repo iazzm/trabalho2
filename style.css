@@ -1,4 +1,4 @@
-  *{
+*{
   }
 
   .mamae{
@@ -16,6 +16,11 @@
   .f1{
     grid-area: f1 ;
     border: solid 5px orangered;
+   justify-content:center;
+  }
+
+  .ic1{
+
   }
 
   .f2{
