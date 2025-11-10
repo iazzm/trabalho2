@@ -1,12 +1,11 @@
-*{
-  }
+
 
   .mamae{
     display: grid;
     width: 100vw;
     height: 100vh;
-    grid-template-columns: 1fr, 1fr, 1fr, 1fr ;
-    grid-template-rows: 1fr, 1fr, 1fr;
+    grid-template-columns: 10% 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr;
     grid-template-areas: 
     "f1 f2 f3 f3"
     "f1 f4 f5 f6"
@@ -67,10 +66,27 @@
   .f2{
     grid-area: f2 ;
     border: solid 5px rgb(167, 23, 31); 
-     
+
   }
 
+.log{
+display: flex;
+align-items: center;
+justify-content: space-around;
+flex-direction: row;
+}
 
+.im{
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  background-color: pink;
+}
+
+p{
+  font-size: large;
+  font-weight: bold;
+}
 
   .f3{
     grid-area: f3 ;
