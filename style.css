@@ -16,16 +16,61 @@
   .f1{
     grid-area: f1 ;
     border: solid 5px orangered;
-   justify-content:center;
+    display: flex;
+   justify-content:space-between;
+   align-items: center;
+   flex-direction: column;
   }
 
   .ic1{
+   border: solid powderblue;
+   width: 100px;
+   height: 100px;
+   border-radius: 50%;
+  }
+   
+  .ic2{
+    border: solid pink;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
 
+  .ic3{
+    border: solid pink;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+
+  .ic4{
+    border: solid pink;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+
+  .ic5{
+    border: solid pink;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+
+  .ic6{
+    border: solid pink;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
   }
 
   .f2{
     grid-area: f2 ;
-    border: solid 5px orangered;  }
+    border: solid 5px rgb(167, 23, 31); 
+     
+  }
+
+
 
   .f3{
     grid-area: f3 ;
